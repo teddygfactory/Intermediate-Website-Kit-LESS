@@ -65,44 +65,6 @@
     margin: 0 0 clamp(1.75rem, 4vw, 2.5rem);
     color: var(--bodyTextColor);
   }
-  #hero-1299 .cs-button-solid {
-    font-size: 1rem;
-    text-align: center;
-    /* 46px - 56px */
-    line-height: clamp(2.875rem, 5.5vw, 3.5rem);
-    width: 11.25rem;
-    text-decoration: none;
-    font-weight: 700;
-    /* clips corners of the before element */
-    overflow: hidden;
-    margin: 0;
-    color: #1a1a1a;
-    padding: 0;
-    background-color: var(--primary);
-    display: inline-block;
-    position: relative;
-    z-index: 1;
-    transition: color 0.3s;
-  }
-  #hero-1299 .cs-button-solid:before {
-    content: "";
-    position: absolute;
-    display: block;
-    height: 100%;
-    width: 0%;
-    background: #000;
-    opacity: 1;
-    top: 0;
-    left: 0;
-    z-index: -1;
-    transition: width 0.3s;
-  }
-  #hero-1299 .cs-button-solid:hover {
-    color: #fff;
-  }
-  #hero-1299 .cs-button-solid:hover:before {
-    width: 100%;
-  }
   #hero-1299 .cs-picture {
     width: 100%;
     /* 427px - 468px */
